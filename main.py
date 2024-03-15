@@ -150,7 +150,7 @@ def main(config):
 
     for epoch in range(config.TRAIN.START_EPOCH, config.TRAIN.EPOCHS):
         # data_loader_train.set_epoch(epoch)
-        train_one_epoch(config, model, criterion_ce,criterion_mse, data_loader_train, optimizer, epoch,  lr_scheduler, writer, model_ema)
+        train_one_epoch(config, model, criterion_ce,criterion_mse, data_loader_train, optimizer, epoch,  lr_scheduler, writer)
 
 
         # acc1, 
@@ -162,7 +162,7 @@ def main(config):
         logger.info(f'Max accuracy: {max_accuracy}%')
 
         if epoch % config.SAVE_FREQ == 0:
-            save_checkpoint(config, epoch, model, acc1, max_accuracy, optimizer, logger, model_ema)
+            save_checkpoint(config, epoch, model, acc1, max_accuracy, optimizer, logger)
 
 
         
