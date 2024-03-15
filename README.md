@@ -1,8 +1,8 @@
 
 ## Basic Python Environment
 
-> pytorch 1.12.1
-> cuda 11.3
+  > pytorch 1.12.1
+  > cuda 11.3
 > seaborn 0.12.2
 > segment-anything 1.0
 > plotly 5.14.1
