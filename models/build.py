@@ -1,7 +1,4 @@
 import torch
-from models.resnet import *
-from models.alexnet import *
-from models.vq2b3 import *
 from models.vq2v2_de import *
 
 
