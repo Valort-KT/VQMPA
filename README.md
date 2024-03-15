@@ -12,7 +12,7 @@
 ## Describing the Purpose of Each File and Directory
 
 > + /configs: Parameter Configuration
-> + /data：Data files are stored on Google Cloud Drive[link]<https://drive.google.com/file/d/1APbWerRcc8XBDKJ-cIlg0jIRLFdYrCfC/view?usp=drive_link>
+> + /data：Data files are stored on Google Cloud Drive[link]()
 > + /models： model file
 > + /post：Algorithms related to the presentation of results
 > + logger.py
